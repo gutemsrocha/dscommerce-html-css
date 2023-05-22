@@ -46,6 +46,10 @@ main {
     margin: 0 auto;
 }
 
+.dsc-mt20 {
+    margin-top: 20px;
+}
+
 .dsc-mb20 {
     margin-bottom: 20px;
 }
@@ -125,5 +129,16 @@ nav a{
     background: var(--dsc-color-btn-inverse);
     color: var(--dsc-color-btn-primary);
     border: 1px solid var(--dsc-color-btn-primary);
+}
+
+.dsc-btn-next-page{
+    border: 1px solid var(--dsc-color-btn-primary);
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--dsc-color-btn-primary);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
