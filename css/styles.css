@@ -15,7 +15,7 @@
     --dsc-color-font-secondary: #0caf1d;
     --dsc-color-font-tertiary: #fff;
     --dsc-color-font-placeholder: #d9d9d9;
-   
+
     --dsc-color-error: #f33;
 }
 
@@ -85,6 +85,19 @@ nav a {
     font-size: 14px;
     font-weight: 700;
 }
+
+.dsc-logged-user {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.dsc-logged-user p {
+    font-size: 12px;
+}
+
+
 
 /*------------------------------------------------------------------------------------------*/
 /* card styles */
@@ -236,12 +249,12 @@ nav a {
     color: var(--dsc-color-font-placeholder);
 }
 
-.dsc-input-error{
+.dsc-input-error {
     border: 1px solid var(--dsc-color-error);
-    
+
 }
 
-.dsc-form-error{
+.dsc-form-error {
     color: var(--dsc-color-error);
     font-size: 12px;
     padding-left: 4px;
