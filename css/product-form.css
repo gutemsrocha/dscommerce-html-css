@@ -27,13 +27,10 @@
     }
 
     .dsc-product-form-buttons {
-        display: flex;
         flex-direction: row;
     }
 
     .dsc-btn-cancel {
         margin-right: 20px;
     }
-
-
 }
